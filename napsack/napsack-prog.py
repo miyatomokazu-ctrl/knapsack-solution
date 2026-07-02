@@ -21,11 +21,21 @@ def knapsack_brute_force(weights, values, capacity):
 
 # --- 動作確認用のデータ ---
 # アイテムの重さ
-weights = [2, 3, 4, 5]
+#weights = [2, 3, 4, 5]
 # アイテムの価値
-values = [3, 4, 5, 8]
+#values = [3, 4, 5, 8]
 # ナップサックの容量（制限重量）
-capacity = 7
+#capacity = 7
+
+# --- 動作確認用のデータ ---
+# アイテムの値段
+#weights = [2, 3, 4, 5]
+values= [6,12,4,3,7,1,3,2,7,3,4,2,10,13,5,16,14,9]
+# アイテムの容量
+weights = [4,8,3,5,9,2,3,1,5,2,4,2,7,10,3,13,11,8]
+# ナップサックの容量（制限重量）
+#capacity = 7
+capacity = 45
 
 # 関数の実行
 max_val, items = knapsack_brute_force(weights, values, capacity)
